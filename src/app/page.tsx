@@ -1,17 +1,10 @@
 import { Header } from "./components/Header/header";
-import "src/styles/home.scss";
+import "../styles/home.scss";
 
-// 👋
 export default function Home() {
   return (
     <main className="container">
      <Header/>
-      <div className="experience">
-        <h3>Experiência</h3>
-        <p>texto</p>
-        <div className="experience-time">
-
-        </div>
         <div className="infos">
           <h3>Idiomas</h3>
           <div className="Languges-info">
@@ -28,7 +21,6 @@ export default function Home() {
           </div>
           <button>entre em contato comigo</button>
         </div>
-      </div>
     </main>
   );
 }
