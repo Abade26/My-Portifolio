@@ -1,14 +1,17 @@
 import { Header } from "./components/Header/header";
+import { Experience } from "./components/experience/experience";
 import "../styles/home.scss";
 
 export default function Home() {
   return (
     <main className="container">
      <Header/>
+     <Experience/>
         <div className="infos">
           <h3>Idiomas</h3>
           <div className="Languges-info">
             <span>🇺🇸 EN - Iniciante</span>
+            <br />
             <span>🇧🇷 PT-BR - Idioma Nativo</span>
           </div>
           <h3>Educação</h3>
@@ -19,7 +22,7 @@ export default function Home() {
           <div className="social">
 
           </div>
-          <button>entre em contato comigo</button>
+          <button>Contate-me</button>
         </div>
     </main>
   );

@@ -1,11 +1,13 @@
+import { SectionTitle } from "../sectionTitle/section-title"
+import "./experience.scss"
+
 export function Experience(){
     return(
         <div className="experience">
-        <h3>Experiência</h3>
-        <p>texto</p>
-        <div className="experience-time">
-
-        </div>
+            <SectionTitle text="Experience"/>   
+            <p> Atuo há 10 meses como estagiário de TI em Desenvolvimento de Softwere no 
+                Ministério Público da Bahia.</p>
+            <div className="experience-time"></div>
         </div>
     )
 }
