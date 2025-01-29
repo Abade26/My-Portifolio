@@ -9,7 +9,7 @@ export function Info(){
             <span>🇺🇸 EN - Iniciante</span>
             <span>🇧🇷 PT-BR - Idioma Nativo</span>
           </div>
-          <SectionTitle text="Educação"/>
+          <SectionTitle text="Formação"/>
           <span>🎓 Bacharelado em Ciência da Computação - Universidade Jorge Amado</span>
         </div>
     )
