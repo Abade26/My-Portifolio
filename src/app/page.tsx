@@ -18,6 +18,7 @@ export default function Home() {
             Contate-me
             <EmailIcon/>
           </a>
+          
         </div>
     </main>
   );
